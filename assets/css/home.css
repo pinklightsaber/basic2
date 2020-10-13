@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #262d2d;
+    --primary: #403e3f;
+    --secondary-color:#EAEAE6;
+    --third-color: #7F7C79;
+    --fth-color: #dfac95;
+    --fif-color: #d8b29d;
+}
+
+#home .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12vh;
+    flex-direction: column;
+}
+
+
+

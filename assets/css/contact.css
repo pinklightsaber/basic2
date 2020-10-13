@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #262d2d;
+    --primary: #403e3f;
+    --secondary-color:#EAEAE6;
+    --third-color: #7F7C79;
+    --fth-color: #dfac95;
+    --fif-color: #bc9d51;
+}
+
+#contact {
+    text-align: center;
+}
+#contact > .container{
+    overflow: hidden;
+    height: 80vh;
+    
+    
+    
+    
+}
+
+#contact > div > div {
+    background-color: var(--primary-color);
+    opacity: .6;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border: 3px solid var(--fth-color);
+    outline: 2px solid var(--primary-color);
+}
+
+#contact > div > div:hover{
+    opacity: 1;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
