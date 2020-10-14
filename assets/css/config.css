@@ -81,3 +81,8 @@ section {
     background-color: var(--fth-color);
 }
 
+.change{
+    transform: translateY(0);
+    opacity: 1;
+}
+

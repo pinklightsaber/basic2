@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 600px) {
     
-
+ 
    
     #services > .container {
         height: 100vh;
@@ -41,6 +41,12 @@
     h5{
         top: 60vh;
         margin: 0 8vw 0 40vw;
+    }
+
+    #about {
+        -webkit-box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
+        -moz-box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
+        box-shadow: 0vh -20vh 10vh 8vh var(--primary-color);
     }
 }
 

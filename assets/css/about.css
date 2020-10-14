@@ -8,9 +8,7 @@
 }
 
 #about {
-    -webkit-box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
-    -moz-box-shadow: 0vh -10vh 10vh 8vh var(--primary-color);
-    box-shadow: 0vh -20vh 10vh 8vh var(--primary-color);
+   
     color: var(--secondary-color);
     transform: translateY(10vh);
     background-color: var(--primary-color);

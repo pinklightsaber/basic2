@@ -39,6 +39,29 @@ $(window).resize(function () {
 });
 
 
+$(window).on('scroll', function () {
+  var windowHeight = $(window).height(),
+      gridTop = windowHeight * .01,
+      gridBottom = windowHeight * 1.1;
+  $('body section div').each(function () {
+      var thisTop = $(this).offset().top - $(window).scrollTop();
+
+      if (thisTop > gridTop && (thisTop + $(this).height()) < gridBottom) {
+          $(this).addClass("change");
+      } else {
+          $(this).removeClass("change");
+      }
+  });
+
+  var $nav = $(".nav-wrapper");
+  var $sec = $("section");
+  $nav.toggleClass('scrolled', $(this).scrollTop() > $sec.height());
+
+
+});
+$(window).trigger('scroll');
+
+
   
  
   
