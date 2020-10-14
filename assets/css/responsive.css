@@ -8,16 +8,39 @@
 }
 
 @media only screen and (min-width: 600px) {
-    h5{
-        top: 60vh;
-        margin: 0 8vw 0 40vw;
-    }
+    
 
+   
+    #services > .container {
+        height: 100vh;
+        
+        
+        
+    }
     #services > .container >.row {
       
         flex-direction: row;
     }
 
+    .services_img{
+        width: 40vw;
+        height: 60vh;
+    }
+    .services_img > img{
+        width: 40vw;
+        filter: sepia(100%);
+        height: max-content;
+    }
+    #services > .container:nth-child(odd) > div> div >h2 {
+   
+        margin-left: -10vw;
+       
+    }
 }
-
+@media only screen and (min-width: 720px){
+    h5{
+        top: 60vh;
+        margin: 0 8vw 0 40vw;
+    }
+}
 

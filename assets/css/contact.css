@@ -9,6 +9,7 @@
 
 #contact {
     text-align: center;
+    transform: translateY(10vh);
 }
 #contact > .container{
     overflow: hidden;

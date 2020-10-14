@@ -6,9 +6,10 @@ $(document).ready(function(){
   });
 });
     
+
 AOS.init({
   // Global settings:
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
   startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
   initClassName: 'aos-init', // class applied after initialization
   animatedClassName: 'aos-animate', // class applied on animation
@@ -29,6 +30,13 @@ AOS.init({
 
 });
 
+
+var width = $(window).width();
+$(window).resize(function () {
+    if (600 <= width) {
+        $('#services > .container').addClass('container_border');
+    }
+});
 
 
   

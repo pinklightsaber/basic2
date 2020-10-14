@@ -39,10 +39,13 @@ h5{
     text-align: justify;
     font-size: 3vh;
     background-color: var(--primary-color);
+    padding: 1vh;
 }
 
 p{
-    color: var(--fth-color)
+    color: var(--fth-color);
+    text-align: justify;
+    padding: 3vh;
 }
 section {
     min-height: 100vh;
@@ -64,8 +67,9 @@ section {
 
 .container_border{
     box-shadow: inset 100vh 100vw rgba(158, 108, 84, 0.7);
-    border: 3px solid var(--fth-color);
-    outline: 2px solid var(--secondary-color);
+    border: 2vh solid var(--fth-color);
+    outline: 1vh solid var(--secondary-color);
+    overflow: hidden;
 }
 .btn-large{
     background-color: transparent;
